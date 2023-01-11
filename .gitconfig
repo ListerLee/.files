@@ -1,0 +1,36 @@
+[user]
+	email = goodman@xyx.com
+	name = goodman
+[alias]
+    lg = log --graph
+    co = checkout
+    br = branch
+    ci = commit
+    st = status
+    dt = difftool
+    di = diff
+[core]
+	editor = vim
+	quotepath = off
+[init]
+	defaultBranch = master
+[push]
+	default = simple
+[pull]
+	rebase = true
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[merge]
+	tool = vimdiff
+	conflictstyle = diff3
+[mergetool]
+	prompt = false
+[rebase]
+	autosquash = true
+	autostash = true
+[rerere]
+	enabled = true
+[sendpack]
+	sideband = false
